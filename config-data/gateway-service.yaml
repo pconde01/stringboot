@@ -46,6 +46,6 @@ eureka:
           tutorial-client:
             provider: keycloak
             client-id: tutorial-client
-            client-secret: ohBMG378sWc2p5W4TbfQxh20KhCD8g5a
+            client-secret: YgT9yvkrYsXtbxGiPtPXYHV1l1USINL0
             authorization-grant-type: authorization_code
-            redirect-uri: "{baseUrl}/login/oauth2/code/tutorial-client"
+            redirect-uri: http://localhost:8080/login/oauth2/code/tutorial-client
